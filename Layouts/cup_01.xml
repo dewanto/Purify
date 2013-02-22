@@ -924,7 +924,7 @@
                 </instance>
                 <instance type="TxtCondition">
                     <properties>
-                        <text>Contaminated!</text>
+                        <text>testtttt</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>

@@ -21,7 +21,7 @@
             </actions>
         </event-block>
         <variable constant="0" name="timex" static="0" type="number">0</variable>
-        <event-group description="" inactive="1" title="TimerX">
+        <event-group collapsed="1" description="" inactive="1" title="TimerX">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -41,7 +41,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" inactive="1" title="ZoomIn">
+        <event-group collapsed="1" description="" inactive="1" title="ZoomIn">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -173,7 +173,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" title="Layout_Start">
+        <event-group collapsed="1" description="" title="Layout_Start">
             <sub-events>
                 <event-block>
                     <conditions>
@@ -200,7 +200,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="After Button Play Clicking" inactive="1" title="Playing">
+        <event-group collapsed="1" description="After Button Play Clicking" inactive="1" title="Playing">
             <sub-events>
                 <event-block>
                     <conditions>
