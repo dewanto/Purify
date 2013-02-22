@@ -8,7 +8,7 @@ Osmos (www.hemispheregames.com/osmos/)
 Tools
 =====
 
-IDE : Construct 2
+IDE : Construct 2, Sublime Text 2
 
 Graphics: Illustrator, Fireworks
 
