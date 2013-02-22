@@ -361,7 +361,7 @@
                 <object-type name="button_sound">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
                             <frame duration="1" hotspotX="0.510204" hotspotY="0.509091">
                                 <collision-poly>
                                     <point x="0.142857" y="0.127273" />
@@ -372,6 +372,37 @@
                                     <point x="0.489796" y="0.981818" />
                                     <point x="0.163265" y="0.854545" />
                                     <point x="0" y="0.490909" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.510204" hotspotY="0.509091">
+                                <collision-poly>
+                                    <point x="0.142857" y="0.127273" />
+                                    <point x="0.489796" y="0" />
+                                    <point x="0.877551" y="0.109091" />
+                                    <point x="0.979592" y="0.490909" />
+                                    <point x="0.816327" y="0.836364" />
+                                    <point x="0.489796" y="1" />
+                                    <point x="0.163265" y="0.854545" />
+                                    <point x="0" y="0.490909" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="button_close">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                            <frame duration="1" hotspotX="0.511111" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.155556" y="0.14" />
+                                    <point x="0.488889" y="0" />
+                                    <point x="0.866667" y="0.12" />
+                                    <point x="0.977778" y="0.5" />
+                                    <point x="0.822222" y="0.84" />
+                                    <point x="0.488889" y="0.98" />
+                                    <point x="0.155556" y="0.86" />
+                                    <point x="0" y="0.5" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -494,6 +525,50 @@
                 </object-type>
             </object-folder>
             <object-folder expanded="1" name="home">
+                <object-folder expanded="1" name="popup">
+                    <object-type name="bg_homeblur">
+                        <plugin id="Sprite" />
+                        <animation-folder expanded="1">
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                                <frame duration="1" hotspotX="0" hotspotY="0" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="button_arcade">
+                        <plugin id="Sprite" />
+                        <animation-folder expanded="1">
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                    <collision-poly>
+                                        <point x="0.006" y="0.03" />
+                                        <point x="0.5" y="0" />
+                                        <point x="0.994" y="0.03" />
+                                        <point x="0.994" y="0.97" />
+                                        <point x="0.5" y="1" />
+                                        <point x="0.006" y="0.97" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="button_timetrial">
+                        <plugin id="Sprite" />
+                        <animation-folder expanded="1">
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.504951">
+                                    <collision-poly>
+                                        <point x="0.006" y="0.029703" />
+                                        <point x="0.5" y="0" />
+                                        <point x="0.994" y="0.029703" />
+                                        <point x="0.994" y="0.970297" />
+                                        <point x="0.5" y="1" />
+                                        <point x="0.006" y="0.970297" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
                 <object-type name="logo">
                     <plugin id="Sprite" />
                     <behaviors>
@@ -619,11 +694,14 @@
         </family>
         <family name="button" plugin-id="Sprite">
             <members>
+                <member>button_arcade</member>
+                <member>button_close</member>
                 <member>button_hiscore</member>
                 <member>button_info</member>
                 <member>button_pause</member>
                 <member>button_play</member>
                 <member>button_sound</member>
+                <member>button_timetrial</member>
                 <member>button_zoom</member>
             </members>
             <behaviors>
