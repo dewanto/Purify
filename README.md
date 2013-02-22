@@ -12,6 +12,10 @@ IDE : Construct 2
 
 Graphics: Illustrator, Fireworks
 
+Demo
+====
+http://dewanto.github.com/purify
+
 Credits
 =======
 Art Design - Amirul Hakim 
