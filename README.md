@@ -3,16 +3,19 @@ Purify
 
 Inspiration
 ===========
-Osmos
+Osmos (www.hemispheregames.com/osmos/)
 
 Tools
 =====
 
 IDE : Construct 2
+
 Graphics: Illustrator, Fireworks
 
 Credits
 =======
 Art Design - Amirul Hakim 
-Game Desigm - Rio Fortian
+
+Game Design - Rio Fortian 
+
 Developer - Dewanto Agung
